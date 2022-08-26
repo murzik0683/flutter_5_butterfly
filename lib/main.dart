@@ -40,6 +40,7 @@ class UsersListState extends State<UsersList> {
     return SizedBox(
       height: 110,
       child: ListView.builder(
+          //physics: const NeverScrollableScrollPhysics(),
           shrinkWrap: true,
           scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.all(20),
